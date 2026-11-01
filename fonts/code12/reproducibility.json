@@ -1,0 +1,13 @@
+{
+  "method": "Upstream rebuild compared with pinned current output hashes",
+  "files": {
+    "SuminohaMaruCode12NF-Regular.ttf": "2bdc91e3461f715db492e2abd7195701ae81cdaf6c1ab39c4b4bc507684a787c",
+    "SuminohaMaruCode12NF-Regular.woff2": "aa13823d2df15629ed47737249578264849a57ca119c28ae77b64563b8285dd3",
+    "SuminohaMaruCode12NFHanJP-Regular.ttf": "d1a257f681da31ab82738e85fe14893dd4732c161890ebec41c62360b49d1be2",
+    "SuminohaMaruCode12NFHanJP-Regular.woff2": "013995a8caacc31eb38fc49a613e75d301c34fe067d70dfcfe0b202fb66fe442",
+    "SuminohaMaruCode12NFHanRareA-Regular.ttf": "b9cf1eb4b7ebd7f0a778e9257b65aeffb571ecda9424099eea3124fb03342539",
+    "SuminohaMaruCode12NFHanRareA-Regular.woff2": "bdd49717236048e9e0fb80114c789a342c7ef1d3b85c90b6481f7cdc879e9664",
+    "SuminohaMaruCode12NFHanRareB-Regular.ttf": "1e4e3a1b47c0c54f2eb1396b5a150a1848ed9b557edf1172294ce4b1daaee20e",
+    "SuminohaMaruCode12NFHanRareB-Regular.woff2": "b8a8bb0109d920705e00973c225a94e97f253604e5dead865d868c2da7781196"
+  }
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+/site/fonts/
+/site/downloads/
+/site/licenses/
+/specimens/
+/.venv/
+/inputs/**/*.ttf
+/inputs/**/*.woff2
+/.impeccable/
+/reports/
+/AGENTS.md
+/PRODUCT.md
+/DESIGN.md
+/PUBLICATION.md

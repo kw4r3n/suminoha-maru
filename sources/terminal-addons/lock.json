@@ -1,0 +1,53 @@
+[
+  {
+    "path": "NotoEmoji[wght].ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/notoemoji/NotoEmoji%5Bwght%5D.ttf",
+    "sha256": "de6c18832938afc99caf132b39d6a30a19bac7f2e812e28db2535b4608d27551"
+  },
+  {
+    "path": "NotoEmoji-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/notoemoji/OFL.txt",
+    "sha256": "500bb1ccf43df7bbb522112f9133a52b16e1c35e809632f5d8609b179152de5b"
+  },
+  {
+    "path": "NotoSansSymbols-Regular.ttf",
+    "upstream": "https://github.com/notofonts/symbols",
+    "sha256": "d0e98e9a2c046594c5021437273943be7e79e0fd980fde125279e22302212595",
+    "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/025970232f4f8ff349310d9785431e87d20ed27c/fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Regular.ttf",
+    "commit": "025970232f4f8ff349310d9785431e87d20ed27c",
+    "release": "noto-monthly-release-2026.10.01",
+    "version": "2.003"
+  },
+  {
+    "path": "NotoSansSymbols2-Regular.ttf",
+    "upstream": "https://github.com/notofonts/symbols",
+    "sha256": "c4a0a80f0041ce4be81e2478faad22776d23edb98ae3f0d19bd37044820ecf9d",
+    "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/025970232f4f8ff349310d9785431e87d20ed27c/fonts/NotoSansSymbols2/hinted/ttf/NotoSansSymbols2-Regular.ttf",
+    "commit": "025970232f4f8ff349310d9785431e87d20ed27c",
+    "release": "noto-monthly-release-2026.10.01",
+    "version": "2.008"
+  },
+  {
+    "path": "NotoSymbols-OFL.txt",
+    "url": "https://raw.githubusercontent.com/notofonts/symbols/main/OFL.txt",
+    "sha256": "b118dd41337806a5d4797052c77caf3bd096aed783e5eb21b4d11154351e1ac0"
+  },
+  {
+    "path": "Devicons-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/LICENSE",
+    "sha256": "121194741d4a915b9f5890fdd6dd95121f9b1f816517c792358d72d7c838d664"
+  },
+  {
+    "path": "NotoSansMath-Regular.ttf",
+    "sha256": "d51afd5739c7ba6c44fcab35a88160e25dfb69a2d4ad0bd99533f8d894af1f96",
+    "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/025970232f4f8ff349310d9785431e87d20ed27c/fonts/NotoSansMath/hinted/ttf/NotoSansMath-Regular.ttf",
+    "commit": "025970232f4f8ff349310d9785431e87d20ed27c",
+    "release": "noto-monthly-release-2026.10.01",
+    "version": "3.000"
+  },
+  {
+    "path": "NotoMath-OFL.txt",
+    "url": "https://raw.githubusercontent.com/notofonts/math/main/OFL.txt",
+    "sha256": "403a95275b469061b7d4371c328e0ada3bc7d63328abe2e88aad5cd243b2fe21"
+  }
+]

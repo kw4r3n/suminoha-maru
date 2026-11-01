@@ -1,0 +1,12 @@
+墨羽 / Suminoha Maru — 派生フォントの帰属表示
+
+Copyright 2013 Google LLC
+Copyright 2020 The Kiwi Maru Project Authors (https://github.com/Kiwi-KawagotoKajiru/Kiwi-Maru)
+Copyright 2021 The Zen Maru Gothic Project Authors (https://github.com/googlefonts/zen-marugothic)
+Copyright 2022 The Maple Mono Project Authors (https://github.com/subframe7536/maple-font)
+Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
+Copyright 2022 The Noto Project Authors (https://github.com/notofonts/math)
+Copyright 2022 The Noto Project Authors (https://github.com/notofonts/symbols)
+Copyright 2026 The Morimo Prototype Contributors
+
+適用されるライセンスと派生元の通知は、このディレクトリに同梱しています。

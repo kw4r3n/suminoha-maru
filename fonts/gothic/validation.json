@@ -1,0 +1,62 @@
+{
+  "fonts": [
+    {
+      "family": "Suminoha Maru Gothic",
+      "version": "Version 0.008",
+      "cmap": 9205,
+      "glyphs": 9954,
+      "outline_cmap_glyph_order_GSUB_GDEF_unchanged": true,
+      "original_GPOS_preserved": true,
+      "mapped_space_advances": {
+        "0x20": 281,
+        "0xa0": 281,
+        "0x3000": 1020
+      }
+    },
+    {
+      "family": "Suminoha Maru Gothic Han JP",
+      "version": "Version 0.008",
+      "cmap": 23454,
+      "glyphs": 23455,
+      "outline_cmap_glyph_order_GSUB_GDEF_unchanged": true,
+      "original_GPOS_preserved": true,
+      "mapped_space_advances": {
+        "0x20": 281,
+        "0xa0": 281,
+        "0x3000": 1020
+      }
+    },
+    {
+      "family": "Suminoha Maru Gothic Han RareA",
+      "version": "Version 0.008",
+      "cmap": 40596,
+      "glyphs": 40597,
+      "outline_cmap_glyph_order_GSUB_GDEF_unchanged": true,
+      "original_GPOS_preserved": true,
+      "mapped_space_advances": {
+        "0x20": 281,
+        "0xa0": 281,
+        "0x3000": 1020
+      }
+    },
+    {
+      "family": "Suminoha Maru Gothic Han RareB",
+      "version": "Version 0.008",
+      "cmap": 32119,
+      "glyphs": 32120,
+      "outline_cmap_glyph_order_GSUB_GDEF_unchanged": true,
+      "original_GPOS_preserved": true,
+      "mapped_space_advances": {
+        "0x20": 281,
+        "0xa0": 281,
+        "0x3000": 1020
+      }
+    }
+  ],
+  "package_union": 105365,
+  "shaping_checks": 555,
+  "all_metrics_checked": true,
+  "TTF_WOFF2_equivalent": true,
+  "valid_mark_cluster_positions_preserved": true,
+  "limits": "Encoded fi/fl/IJ/numero reuse weighted ligature advances; ligature ink/carets retained. mark=0 and arbitrary invalid repeated halfwidth voicing not guaranteed."
+}

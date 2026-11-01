@@ -1,0 +1,87 @@
+{
+  "repository": "https://github.com/google/fonts",
+  "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+  "files": [
+    {
+      "path": "sources/comfortaa/METADATA.pb",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/comfortaa/METADATA.pb",
+      "sha256": "70de3bdcdbe33269ad4e584eaa8514ff5e3359307edd534addfdbc199262a539"
+    },
+    {
+      "path": "sources/comfortaa/OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/comfortaa/OFL.txt",
+      "sha256": "bc85bae0b512b799bbfb2b916e4d0a34cfd963d09778cd783e248b479e67760a"
+    },
+    {
+      "path": "sources/comfortaa/Comfortaa[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/comfortaa/Comfortaa%5Bwght%5D.ttf",
+      "sha256": "0fc3f45dc48b614db9c39181502544b37217ecbf8bee2fb35886992bc96c5bd3"
+    },
+    {
+      "path": "sources/kiwimaru/METADATA.pb",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/kiwimaru/METADATA.pb",
+      "sha256": "a219fb2dfd44148f5d2dce2e9648084caf6a42091606216309eb0a9a05fd584f"
+    },
+    {
+      "path": "sources/kiwimaru/OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/kiwimaru/OFL.txt",
+      "sha256": "07ceae7a6e3294cbbd0fdf6e35226550566a1cce9fd226d0f8a57f3d34c664fe"
+    },
+    {
+      "path": "sources/kiwimaru/KiwiMaru-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/kiwimaru/KiwiMaru-Regular.ttf",
+      "sha256": "b0c3103b2639f690c1fcb44e060058383174bfd2eb72e6635bc9869b374dee87"
+    },
+    {
+      "path": "sources/nunito/METADATA.pb",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/nunito/METADATA.pb",
+      "sha256": "3e20743c7ddab54c6ac57d79a6be522d4bae795223855ce90a1b13c4132f0754"
+    },
+    {
+      "path": "sources/nunito/OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/nunito/OFL.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+    },
+    {
+      "path": "sources/nunito/Nunito[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/nunito/Nunito%5Bwght%5D.ttf",
+      "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207"
+    },
+    {
+      "path": "sources/zenmarugothic/METADATA.pb",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/zenmarugothic/METADATA.pb",
+      "sha256": "ca7003349939baf51b9d493fc556be2a02bcae9adf954750b64968aeb0bef784"
+    },
+    {
+      "path": "sources/zenmarugothic/OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/zenmarugothic/OFL.txt",
+      "sha256": "2a20cf7ce1909d8ee1e949095d340f7d7656705f7c810a2d6faf56800ad0cb3d"
+    },
+    {
+      "path": "sources/zenmarugothic/ZenMaruGothic-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/zenmarugothic/ZenMaruGothic-Regular.ttf",
+      "sha256": "a0c0b53543e0993ae2225e629c833f3d51495ad31720694ff112ce4ce11111ef"
+    },
+    {
+      "path": "sources/maplemono/MapleMono-Regular.ttf",
+      "url": "https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-TTF.zip",
+      "archive_member": "MapleMono-Regular.ttf",
+      "archive_sha256": "3a35f8f0669bef3dded9df208cc4526a6f7573210e134816e9084a8981271d75",
+      "sha256": "369583f0b555f33bdb6fdbcc2a6840a7a61a1d72c008a57a665baa36d7d5adf6",
+      "source_commit": "4d847729cbfc5b5d8cbae5795fd2348c70112648"
+    },
+    {
+      "path": "sources/maplemono/OFL.txt",
+      "url": "https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-TTF.zip",
+      "archive_member": "LICENSE.txt",
+      "archive_sha256": "3a35f8f0669bef3dded9df208cc4526a6f7573210e134816e9084a8981271d75",
+      "sha256": "eb2d28d2e565a0757e3d64e34ebb452e75a0cad87c0ab3faf4e08ba7596de902",
+      "source_commit": "4d847729cbfc5b5d8cbae5795fd2348c70112648"
+    },
+    {
+      "path": "sources/kiwimaru/UPSTREAM-README.md",
+      "url": "https://raw.githubusercontent.com/Kiwi-KawagotoKajiru/Kiwi-Maru/65a112c7ec9ffe81595406982a670c7f945d7c5b/README.md",
+      "sha256": "3a3b6319f6fc2dda5a7e0e249b240537d0a9c8f8bd6973323eadb030766dea0e"
+    }
+  ]
+}

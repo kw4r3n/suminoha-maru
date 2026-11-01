@@ -1,0 +1,13 @@
+{
+  "method": "Upstream rebuild compared with pinned current output hashes",
+  "files": {
+    "SuminohaMaruCode35NF-Regular.ttf": "2c9d2aa3c4894b2014f61333a0d63bc7a8c1886a68d9641250c0c7d86dc9b0d2",
+    "SuminohaMaruCode35NF-Regular.woff2": "9e57a98d26e8c1c2407642aea7b6cbee99717538d798f3d4e65d7895356009bc",
+    "SuminohaMaruCode35NFHanJP-Regular.ttf": "b051644e0c4601fbb73a0409643c5b121a49381b22859e59563b375a6dbed6ae",
+    "SuminohaMaruCode35NFHanJP-Regular.woff2": "6996d965b084d08e50ac62dc53ac307d61b0de102278fa4b8ba463b290b3f888",
+    "SuminohaMaruCode35NFHanRareA-Regular.ttf": "94086697754013f9d5dbab969d9f6624faa233f1ed47572365de8de94a804b18",
+    "SuminohaMaruCode35NFHanRareA-Regular.woff2": "ce788e047fb1fc0838317187867be4660973c9544c7c94b011d90e28ea3ef519",
+    "SuminohaMaruCode35NFHanRareB-Regular.ttf": "2e1a6d6e507023a51429fc997791677b65a44edaadcc5d0023b04173e948a835",
+    "SuminohaMaruCode35NFHanRareB-Regular.woff2": "82d1f4fd75951fa6f5de4acd8ba614697dfc172d9bb2fb3022ab57573fd9183a"
+  }
+}

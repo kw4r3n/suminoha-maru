@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="墨羽（Suminoha Maru）は本文・コード用の丸いフォント。実際の字形を試し、用途や制約を確認してTTFをダウンロードできます。">
+  <title>墨羽 / Suminoha Maru — ことばと、コード。</title>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#tester">試し書きへ移動</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="墨羽 Suminoha Maru トップ">
+      <span class="wordmark">墨羽</span><img src="assets/plates/logo-feather.png" width="38" height="48" alt=""><span class="brand-name">Suminoha Maru</span>
+    </a>
+    <nav aria-label="メインナビゲーション"><a href="#tester">試す</a><a href="#families">書体について</a><a href="#downloads">ダウンロード</a></nav>
+  </header>
+  <main id="top">
+    <section class="hero" id="tester" aria-labelledby="hero-title">
+      <div class="specimen-area" data-family="prose">
+        <h1 id="hero-title">ことばと、コード。</h1>
+        <label class="sr-only" for="specimen">試し書き（自由入力）</label>
+        <textarea id="specimen" rows="2" maxlength="2000" spellcheck="false" aria-describedby="input-hint font-status">静かな朝に、Hello world. 0O1lI</textarea>
+        <p class="input-hint" id="input-hint">文字をクリックして、自由に試し書きできます。</p>
+        <div class="introduction"><p>やさしい丸みのある日本語と、幅比を選べるコード書体。<br>墨羽（Suminoha Maru）は、本文とコードのための書体ファミリーです。</p>
+          <img class="ink-feather" src="assets/plates/ink-feather.png" width="824" height="282" alt="">
+        </div>
+      </div>
+      <form class="tester-controls" aria-label="試し書きの設定">
+        <fieldset class="family-options">
+          <legend>書体を選ぶ</legend>
+          <div class="family-grid">
+          <label><input type="radio" name="family" value="prose" checked><span><strong>本文</strong><small>バージョン v1</small></span></label>
+          <label><input type="radio" name="family" value="code12"><span><strong>Code12</strong><small>欧文：漢字 = <span class="ratio">1：2</span></small></span></label>
+          <label><input type="radio" name="family" value="code35"><span><strong>Code35</strong><small>欧文：漢字 = <span class="ratio">3：5</span></small></span></label>
+          </div>
+        </fieldset>
+        <div class="size-setting"><label for="font-size">文字サイズ</label><div class="range-row"><input id="font-size" type="range" min="16" max="96" step="1" value="48"><output id="size-value" for="font-size">48 px</output></div></div>
+        <div class="feature-row"><label for="ligatures">合字 <small>コード書体のみ</small></label><input id="ligatures" type="checkbox" role="switch" checked disabled aria-describedby="feature-hint"></div>
+        <div class="glyph-setting"><label for="glyphs">字形 <small>コード書体のみ</small></label><select id="glyphs" disabled aria-describedby="feature-hint"><option value="default">標準（デフォルト）</option><option value="cv01">記号・Qなどの字形（cv01）</option><option value="cv02">a の字形（cv02）</option><option value="cv03">i の字形（cv03）</option><option value="cv64">比較記号の横線（cv64）</option></select></div>
+        <p class="control-hint" id="feature-hint">本文ではコード用の合字・字形操作は使用できません。</p>
+        <div class="download-action"><a class="button primary" id="selected-download" download href="downloads/SuminohaMaruGothic-v1-TTF.zip">本文用TTFをダウンロード <span>（ZIP）</span></a><p id="package-note">本文（Regular・横組み）のTTF、補助漢字3書体、各種ライセンスを同梱しています。</p></div>
+        <div class="font-feedback"><p id="font-status" role="status">見本フォントを読み込んでいます…</p><button id="retry-font" type="button" hidden>もう一度読み込む</button></div>
+      </form>
+    </section>
+    <section class="families section" id="families" aria-labelledby="families-title">
+      <div class="section-heading"><h2 id="families-title">3つの書体</h2><p>読むための本文と、幅比の異なる2つのコード書体。<br>使いたい場所に合わせて選べます。</p></div>
+      <div class="family-cards">
+        <article class="family-card"><span class="sample-letter prose" aria-hidden="true">あ</span><div><h3>本文</h3><p class="family-meta">書体名：Suminoha Maru Gothic</p><p>日本語の文章と、自然な幅の欧文に。字間をフォント内で調整しています。</p><button type="button" class="text-button" data-try="prose">本文を試す<span aria-hidden="true"> →</span></button></div></article>
+        <article class="family-card"><span class="sample-letter code12" aria-hidden="true">あ</span><div><h3>Code12</h3><p class="family-meta">欧文：漢字 = 1：2</p><p>欧文540・漢字1080の幅比。コードや、日本語の混ざる等幅のテキストに。</p><button type="button" class="text-button" data-try="code12">Code12を試す<span aria-hidden="true"> →</span></button></div></article>
+        <article class="family-card"><span class="sample-letter code35" aria-hidden="true">あ</span><div><h3>Code35</h3><p class="family-meta">欧文：漢字 = 3：5</p><p>欧文648・漢字1080の幅比。欧文の横幅を広めにとったコード書体です。</p><button type="button" class="text-button" data-try="code35">Code35を試す<span aria-hidden="true"> →</span></button></div></article>
+      </div>
+    </section>
+    <section class="details section" id="coverage" aria-labelledby="coverage-title">
+      <div class="section-heading"><h2 id="coverage-title">仕様・制約</h2><p>収録範囲と利用上の制約</p></div>
+      <dl class="facts"><div><dt>収録文字と補助漢字</dt><dd>日本語・欧文の主書体に、Han JP・Han RareA・Han RareBの補助漢字を組み合わせます。補助漢字には、丸い主書体と字形や濃さの異なる文字があります。試し書きで表示できない文字は、ブラウザの代替書体で表示されます。</dd></div><div><dt>Regular・横組み</dt><dd>現行版はRegularのみ。IVS・地域別漢字・縦組み・全Unicodeへの対応は保証しません。本文用フォントは字間を調整済みなので、アプリ側の追加字間は0を基準にしてください。</dd></div><div><dt>コード書体と端末</dt><dd>Code12の幅比は1：2、Code35は3：5です。Code35は一般的な1：2端末用フォントではありません。Code12もすべての端末でのカーソル・セル表示を保証するものではありません。</dd></div><div><dt>合字とアイコン</dt><dd>Code12・Code35ではプログラミング合字と一部の字形を切り替えられます。NFは限定的なアイコン集合を指し、完全なNerd Fontsではありません。カラー絵文字やZWJ列の対応は保証しません。</dd></div></dl>
+    </section>
+    <section class="downloads section" id="downloads" aria-labelledby="downloads-title">
+      <div class="section-heading"><h2 id="downloads-title">ダウンロード</h2><p>用途別TTFパッケージ（補助漢字・ライセンス同梱）</p></div>
+      <div class="download-list">
+        <div><h3>本文 <small>バージョン v1</small></h3><p>本文用・補助漢字・ライセンス</p><a class="button secondary" data-download="prose" download href="downloads/SuminohaMaruGothic-v1-TTF.zip">本文用TTF <span>ZIP / 約21 MB</span></a></div>
+        <div><h3>Code12 <small>バージョン v1</small></h3><p>1：2のコード用・補助漢字・ライセンス</p><a class="button secondary" data-download="code12" download href="downloads/SuminohaMaruCode12NF-v1-TTF.zip">Code12用TTF <span>ZIP / 約22 MB</span></a></div>
+        <div><h3>Code35 <small>バージョン v1</small></h3><p>3：5のコード用・補助漢字・ライセンス</p><a class="button secondary" data-download="code35" download href="downloads/SuminohaMaruCode35NF-v1-TTF.zip">Code35用TTF <span>ZIP / 約22 MB</span></a></div>
+      </div>
+      <p id="download-status" role="status" hidden>一部の配布ファイルを確認できません。時間をおいてページを再読み込みしてください。</p>
+      <details class="installation"><summary>4つのフォントの使い方</summary><div><p>ZIPを展開し、主書体と同じ用途のHan JP・Han RareA・Han RareBをインストールしてください。補助漢字だけでは欧文・仮名を含む主書体の代わりにはなりません。</p><p>ファイルを直接読み込むアプリでは、主書体 → Han JP → Han RareA → Han RareBの順で明示的に指定します。補助漢字の自動選択はアプリや環境によって異なります。</p></div></details>
+      <p class="license-note"><a href="licenses/index.html">ライセンス・帰属表示を確認する</a>（ZIPのダウンロードは不要です）。原文は各ZIP内の <code>licenses/</code> にも収録しています。再配布や改変を行う場合は、各ライセンスと名称に関する条件をご確認ください。<a href="downloads/manifest.json">配布ファイルのSHA-256</a></p>
+    </section>
+  </main>
+  <footer class="site-footer"><p><span>墨羽</span> Suminoha Maru</p><p>文章にも、コードにも。</p><a href="#top">ページの先頭へ ↑</a></footer>
+  <noscript><p class="noscript-note">試し書きの入力とダウンロードはそのまま使えます。書体・サイズ・合字・字形の切り替えにはJavaScriptが必要です。</p></noscript>
+</body>
+</html>

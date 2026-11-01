@@ -1,0 +1,19 @@
+{
+  "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+  "files": [
+    {
+      "path": "sources/japanese-medium/zenmarugothic/ZenMaruGothic-Medium.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/zenmarugothic/ZenMaruGothic-Medium.ttf",
+      "sha256": "3cfdb98a13571ede17fcc769f5093a97c38b80a7b9b2ab754a26b4d822092b3b",
+      "bytes": 3810988,
+      "license_reference": "sources/zenmarugothic/OFL.txt"
+    },
+    {
+      "path": "sources/japanese-medium/kiwimaru/KiwiMaru-Medium.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/e7db6ca603fd4862010383ff17ffd6cc4ffac1c0/ofl/kiwimaru/KiwiMaru-Medium.ttf",
+      "sha256": "b2659f300a7d48c3f29eb273ffc5e1b26cc416ac8c37ff6bb2f3e43c2f4d235a",
+      "bytes": 5123612,
+      "license_reference": "sources/kiwimaru/OFL.txt"
+    }
+  ]
+}

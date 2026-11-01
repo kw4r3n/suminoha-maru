@@ -1,0 +1,41 @@
+{
+  "fonts": [
+    {
+      "family": "Suminoha Maru Code 35 NF",
+      "cmap": 9559,
+      "glyphs": 9701,
+      "non_name_tables_identical": true,
+      "HB_checks": 18
+    },
+    {
+      "family": "Suminoha Maru Code 35 NF Han JP",
+      "cmap": 23454,
+      "glyphs": 23455,
+      "non_name_tables_identical": true,
+      "HB_checks": 18
+    },
+    {
+      "family": "Suminoha Maru Code 35 NF Han RareA",
+      "cmap": 40596,
+      "glyphs": 40597,
+      "non_name_tables_identical": true,
+      "HB_checks": 18
+    },
+    {
+      "family": "Suminoha Maru Code 35 NF Han RareB",
+      "cmap": 32119,
+      "glyphs": 32120,
+      "non_name_tables_identical": true,
+      "HB_checks": 18
+    }
+  ],
+  "code": {
+    "union": 105719,
+    "all923_unknown": 0,
+    "normalization": {
+      "raw": 132,
+      "canonical": 791
+    },
+    "sample_unknown": 0
+  }
+}

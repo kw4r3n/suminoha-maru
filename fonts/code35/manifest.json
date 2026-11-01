@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "code",
+    "family": "Suminoha Maru Code 35 NF",
+    "japanese_family": "墨羽 丸コード 35 NF",
+    "old_family": "Morimo Code JP95 Terminal Addons Ratio35",
+    "postscript": "SuminohaMaruCode35NF-Regular",
+    "source": "inputs/terminal-ratio35/MorimoCodeJP95TerminalAddonsRatio35-Regular.ttf",
+    "source_sha256": "175ee5b2de7a1c6cb2337837ad4929b7aa312a3f957a93d62af371d1d35bdc88",
+    "file": "SuminohaMaruCode35NF-Regular.ttf",
+    "sha256": "2c9d2aa3c4894b2014f61333a0d63bc7a8c1886a68d9641250c0c7d86dc9b0d2",
+    "woff2_sha256": "9e57a98d26e8c1c2407642aea7b6cbee99717538d798f3d4e65d7895356009bc"
+  },
+  {
+    "kind": "code",
+    "family": "Suminoha Maru Code 35 NF Han JP",
+    "japanese_family": "墨羽 丸コード 35 NF 漢字 JP",
+    "old_family": "Morimo Ratio35 Han JP",
+    "postscript": "SuminohaMaruCode35NFHanJP-Regular",
+    "source": "inputs/han-spacefix/MorimoRatio35HanJP-Regular.ttf",
+    "source_sha256": "80a5f20d4167f3d27c700ccd09b746761c4cd857662c6775206dcfc6f65adf85",
+    "file": "SuminohaMaruCode35NFHanJP-Regular.ttf",
+    "sha256": "b051644e0c4601fbb73a0409643c5b121a49381b22859e59563b375a6dbed6ae",
+    "woff2_sha256": "6996d965b084d08e50ac62dc53ac307d61b0de102278fa4b8ba463b290b3f888"
+  },
+  {
+    "kind": "code",
+    "family": "Suminoha Maru Code 35 NF Han RareA",
+    "japanese_family": "墨羽 丸コード 35 NF 漢字 RareA",
+    "old_family": "Morimo Ratio35 Han RareA",
+    "postscript": "SuminohaMaruCode35NFHanRareA-Regular",
+    "source": "inputs/han-spacefix/MorimoRatio35HanRareA-Regular.ttf",
+    "source_sha256": "58c3a5fd899ccd38be623b3aaa1885348ab0ae5113d2cae68ef0bde55365e1fe",
+    "file": "SuminohaMaruCode35NFHanRareA-Regular.ttf",
+    "sha256": "94086697754013f9d5dbab969d9f6624faa233f1ed47572365de8de94a804b18",
+    "woff2_sha256": "ce788e047fb1fc0838317187867be4660973c9544c7c94b011d90e28ea3ef519"
+  },
+  {
+    "kind": "code",
+    "family": "Suminoha Maru Code 35 NF Han RareB",
+    "japanese_family": "墨羽 丸コード 35 NF 漢字 RareB",
+    "old_family": "Morimo Ratio35 Han RareB",
+    "postscript": "SuminohaMaruCode35NFHanRareB-Regular",
+    "source": "inputs/han-spacefix/MorimoRatio35HanRareB-Regular.ttf",
+    "source_sha256": "4281c85fd35e31ed1073c0d39ceb44dd4b6ffab32990b05461cd33b387a73f3c",
+    "file": "SuminohaMaruCode35NFHanRareB-Regular.ttf",
+    "sha256": "2e1a6d6e507023a51429fc997791677b65a44edaadcc5d0023b04173e948a835",
+    "woff2_sha256": "82d1f4fd75951fa6f5de4acd8ba614697dfc172d9bb2fb3022ab57573fd9183a"
+  }
+]

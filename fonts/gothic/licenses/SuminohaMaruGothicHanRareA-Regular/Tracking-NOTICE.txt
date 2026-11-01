@@ -1,0 +1,1 @@
+Suminoha Maru Gothic revision0.008 adds20/1000em trailing advance per tracked base, with source-glyph-count ligature totals and a bounded halfwidth-voicing attachment adjustment. Outlines and all original donor attribution/licenses are retained. Full original OFL/Unicode notices in this directory remain applicable. No new source font or glyph design.

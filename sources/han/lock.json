@@ -1,0 +1,48 @@
+[
+  {
+    "path": "NotoSansCJKjp-Regular.otf",
+    "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/523d033d6cb47f4a80c58a35753646f5c3608a78/Sans/OTF/Japanese/NotoSansCJKjp-Regular.otf",
+    "commit": "523d033d6cb47f4a80c58a35753646f5c3608a78",
+    "sha256": "68a3fc98800b2a27b371f2fb79991daf3633bd89309d4ffaa6946fd587f375b5"
+  },
+  {
+    "path": "Noto-OFL.txt",
+    "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/523d033d6cb47f4a80c58a35753646f5c3608a78/LICENSE",
+    "commit": "523d033d6cb47f4a80c58a35753646f5c3608a78",
+    "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+  },
+  {
+    "path": "PlangothicP1-Regular.ttf",
+    "url": "https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project/releases/download/V2.9.5795/PlangothicP1-Regular.ttf",
+    "commit": "51485203670f18b6f5fa40913ffcde55027ddcb1",
+    "sha256": "550b5d0775b15405946b18f4843df439a51e69508d7e6778d94c1f7a53dc5ad6"
+  },
+  {
+    "path": "PlangothicP2-Regular.ttf",
+    "url": "https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project/releases/download/V2.9.5795/PlangothicP2-Regular.ttf",
+    "commit": "51485203670f18b6f5fa40913ffcde55027ddcb1",
+    "sha256": "681933370adfe0fc7253f77735275a82fea09fe4f8adba907bdeb46c110daf8f"
+  },
+  {
+    "path": "Plangothic-README.md",
+    "url": "https://raw.githubusercontent.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project/51485203670f18b6f5fa40913ffcde55027ddcb1/README.md",
+    "commit": "51485203670f18b6f5fa40913ffcde55027ddcb1",
+    "sha256": "21892edce0f3364e09d3fd2d03fd5f7e16cfd2cb66f166ba998954ef1431e75b"
+  },
+  {
+    "path": "PropList-17.txt",
+    "url": "https://www.unicode.org/Public/17.0.0/ucd/PropList.txt",
+    "commit": null,
+    "sha256": "130dcddcaadaf071008bdfce1e7743e04fdfbc910886f017d9f9ac931d8c64dd"
+  },
+  {
+    "path": "Plangothic-OFL.txt",
+    "url": "https://raw.githubusercontent.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project/51485203670f18b6f5fa40913ffcde55027ddcb1/LICENSE-OFL.txt",
+    "sha256": "e564f06d018e7b95bc3594c96a17f1d41865af4038c375e7aa974dd69df38602"
+  },
+  {
+    "path": "Unicode-LICENSE.txt",
+    "url": "https://www.unicode.org/license.txt",
+    "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+  }
+]

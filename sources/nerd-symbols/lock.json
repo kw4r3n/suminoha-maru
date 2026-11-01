@@ -1,0 +1,13 @@
+{
+  "release": "v3.5.1",
+  "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/NerdFontsSymbolsOnly.zip",
+  "archive_sha256": "fdca3682534f6f65e1ccb2345b0362ccf67d9b8eca7c8025330946e93e2473bc",
+  "files": {
+    "LICENSE": "84a7a98c82140fb12c37fe42b93805baa16024cb3e5acc599b7ffe612c55d847",
+    "README.md": "a4463554f951c8153d0bdfcb6e03b382baf99dcdd3f99790014427687abdc55b",
+    "SymbolsNerdFontMono-Regular.ttf": "fe471e538392f51910faab985fa8e192a39dd3426125edd15b71b3680df0e749",
+    "octicons-LICENSE.txt": "4f886642f9e8d99eeadd484acdac011c3fde8a338faf52f5ca1408c13b9a9b63",
+    "powerline-LICENSE.txt": "46d5355e4734468135d8e4a30d0916292cc4df2b3ec30aa68c866f82497933be",
+    "powerline-extra-LICENSE.txt": "544307a58e6826c24145b2af1c3578b53e2e21ae0e6c67ab4c6abd544304d26a"
+  }
+}

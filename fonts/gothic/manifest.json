@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "prose",
+    "family": "Suminoha Maru Gothic",
+    "japanese_family": "墨羽 丸ゴシック",
+    "old_family": "Morimo Prose Zen",
+    "postscript": "SuminohaMaruGothic-Regular",
+    "source": "fonts/code35/SuminohaMaruGothic-Regular.ttf",
+    "source_sha256": "113b317a09455fd0df90652b6a13803bc1abd6e501b33098562f6f8f98cec94f",
+    "file": "SuminohaMaruGothic-Regular.ttf",
+    "sha256": "0dc957e6a7d82fa4bd32d5f737f06cd94d0c90246da17e3411d8c424f204a893",
+    "woff2_sha256": "9da456a8ff852b974b492b44552e0348c1e2b2e99b3419c5dbabbb54209c1bdb",
+    "version": "0.008",
+    "tracking_units": 20,
+    "changed_glyph_advances": 9833,
+    "policy": {
+      "zero_or_marks_preserved": 121,
+      "multi_base_glyphs": {
+        "Iacute_J.loclNLD": 2,
+        "I_J.loclNLD": 2,
+        "iacute_j.loclNLD": 2,
+        "fi": 2,
+        "fl": 2,
+        "i_j.loclNLD": 2,
+        "fl.ss02": 2,
+        "uni2116": 3
+      },
+      "positive_spacing_marks_preserved": [
+        "uniFF9E",
+        "uniFF9F"
+      ],
+      "halfwidth_attachment": {
+        "lookup_index": 10,
+        "feature": "mark",
+        "scope": "single halfwidth voiced/semi-voiced mark after a tracked base",
+        "moves_trailing_tracking_after_mark": true
+      }
+    },
+    "total_tracking_units": 196840
+  },
+  {
+    "kind": "prose",
+    "family": "Suminoha Maru Gothic Han JP",
+    "japanese_family": "墨羽 丸ゴシック 漢字 JP",
+    "old_family": "Morimo Prose Han JP",
+    "postscript": "SuminohaMaruGothicHanJP-Regular",
+    "source": "fonts/code35/SuminohaMaruGothicHanJP-Regular.ttf",
+    "source_sha256": "288641f8b6f0f2923d3645a1c8c04751a51a6ce4753ad20698c31e6a8860cc0c",
+    "file": "SuminohaMaruGothicHanJP-Regular.ttf",
+    "sha256": "2561f3374c3082aa70855b52d368608b042bcbef9f169f80fe391c1da6c77cc8",
+    "woff2_sha256": "6968cef781298f880bea79cdde2d2195b20bacedc5167ddc73f4e4146acbf587",
+    "version": "0.008",
+    "tracking_units": 20,
+    "changed_glyph_advances": 23455,
+    "policy": {
+      "Han_and_empty_spaces": true
+    },
+    "total_tracking_units": 469100
+  },
+  {
+    "kind": "prose",
+    "family": "Suminoha Maru Gothic Han RareA",
+    "japanese_family": "墨羽 丸ゴシック 漢字 RareA",
+    "old_family": "Morimo Prose Han RareA",
+    "postscript": "SuminohaMaruGothicHanRareA-Regular",
+    "source": "fonts/code35/SuminohaMaruGothicHanRareA-Regular.ttf",
+    "source_sha256": "2eba78cf15464f0869f44f6910491cbc355371174c2160bdfe0910eb185a61b7",
+    "file": "SuminohaMaruGothicHanRareA-Regular.ttf",
+    "sha256": "81c751754b6ac70a330ccad0d4e5fa37e95e089ad7ec8425436bbbca51d50c54",
+    "woff2_sha256": "043b4aa10dffe33a94e345b6fe9b599e04753bd551b5bedfea4f680722224428",
+    "version": "0.008",
+    "tracking_units": 20,
+    "changed_glyph_advances": 40597,
+    "policy": {
+      "Han_and_empty_spaces": true
+    },
+    "total_tracking_units": 811940
+  },
+  {
+    "kind": "prose",
+    "family": "Suminoha Maru Gothic Han RareB",
+    "japanese_family": "墨羽 丸ゴシック 漢字 RareB",
+    "old_family": "Morimo Prose Han RareB",
+    "postscript": "SuminohaMaruGothicHanRareB-Regular",
+    "source": "fonts/code35/SuminohaMaruGothicHanRareB-Regular.ttf",
+    "source_sha256": "344193040c2e5f41140b40519ca02add3c0488b9c9418573928558f670259a0e",
+    "file": "SuminohaMaruGothicHanRareB-Regular.ttf",
+    "sha256": "6db9da041e93d605d9092854e6e344c9734f86e35ff695b3ed6c3bcc91543c10",
+    "woff2_sha256": "d80ef48f0a03c1498ad1c5d5accb8545aa98806ec4ea3b95dd0af4c413a2303e",
+    "version": "0.008",
+    "tracking_units": 20,
+    "changed_glyph_advances": 32120,
+    "policy": {
+      "Han_and_empty_spaces": true
+    },
+    "total_tracking_units": 642400
+  }
+]

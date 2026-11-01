@@ -1,0 +1,13 @@
+{
+  "method": "Upstream rebuild compared with pinned current output hashes",
+  "files": {
+    "SuminohaMaruGothic-Regular.ttf": "0dc957e6a7d82fa4bd32d5f737f06cd94d0c90246da17e3411d8c424f204a893",
+    "SuminohaMaruGothic-Regular.woff2": "9da456a8ff852b974b492b44552e0348c1e2b2e99b3419c5dbabbb54209c1bdb",
+    "SuminohaMaruGothicHanJP-Regular.ttf": "2561f3374c3082aa70855b52d368608b042bcbef9f169f80fe391c1da6c77cc8",
+    "SuminohaMaruGothicHanJP-Regular.woff2": "6968cef781298f880bea79cdde2d2195b20bacedc5167ddc73f4e4146acbf587",
+    "SuminohaMaruGothicHanRareA-Regular.ttf": "81c751754b6ac70a330ccad0d4e5fa37e95e089ad7ec8425436bbbca51d50c54",
+    "SuminohaMaruGothicHanRareA-Regular.woff2": "043b4aa10dffe33a94e345b6fe9b599e04753bd551b5bedfea4f680722224428",
+    "SuminohaMaruGothicHanRareB-Regular.ttf": "6db9da041e93d605d9092854e6e344c9734f86e35ff695b3ed6c3bcc91543c10",
+    "SuminohaMaruGothicHanRareB-Regular.woff2": "d80ef48f0a03c1498ad1c5d5accb8545aa98806ec4ea3b95dd0af4c413a2303e"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "fonts": [
+    {
+      "family": "Suminoha Maru Code 12 NF",
+      "cmap": 9559,
+      "glyphs": 9701,
+      "Han_or_primary_widths": "540/1080",
+      "unchanged_glyphs_features": true,
+      "OS2_first_character_index": "space32 corrected when table reserialized",
+      "HB_checks": 18
+    },
+    {
+      "family": "Suminoha Maru Code 12 NF Han JP",
+      "cmap": 23454,
+      "glyphs": 23455,
+      "Han_or_primary_widths": "540/1080",
+      "unchanged_glyphs_features": true,
+      "OS2_first_character_index": "space32 corrected when table reserialized",
+      "HB_checks": 18
+    },
+    {
+      "family": "Suminoha Maru Code 12 NF Han RareA",
+      "cmap": 40596,
+      "glyphs": 40597,
+      "Han_or_primary_widths": "540/1080",
+      "unchanged_glyphs_features": true,
+      "OS2_first_character_index": "space32 corrected when table reserialized",
+      "HB_checks": 18
+    },
+    {
+      "family": "Suminoha Maru Code 12 NF Han RareB",
+      "cmap": 32119,
+      "glyphs": 32120,
+      "Han_or_primary_widths": "540/1080",
+      "unchanged_glyphs_features": true,
+      "OS2_first_character_index": "space32 corrected when table reserialized",
+      "HB_checks": 18
+    }
+  ],
+  "package_union": 105719,
+  "compatibility_HB": 923,
+  "limits": "Finite native renderer checks separately; no universal terminal acceptance."
+}
