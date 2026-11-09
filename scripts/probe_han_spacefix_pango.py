@@ -7,7 +7,7 @@ def probe(root):
  sys.path.insert(0,str(root/'scripts'));from build_han_companions import sha
  m=json.loads((root/'inputs/han-spacefix/manifest.json').read_text());mapping=json.loads((root/'inputs/han-compat/mapping.json').read_text());families={'base':'Morimo Code JP95 Terminal Addons Ratio35'}|{k:r['family'] for k,r in m.items()};fonts={};resolved={}
  for key,fam in families.items():
-  path=Path(subprocess.check_output(['fc-match',fam,'-f','%{file}'],text=True));expected='175ee5b2de7a1c6cb2337837ad4929b7aa312a3f957a93d62af371d1d35bdc88' if key=='base' else m[key]['hashes']['ttf'];assert sha(path)==expected;(fonts.update({expected:TTFont(path)}));resolved[fam]={'path':str(path),'sha256':expected}
+  path=Path(subprocess.check_output(['fc-match',fam,'-f','%{file}'],text=True));expected='717d077e233ba2cb14b463dd2e41ef29ca509af211d1073ba8054fab1891f4cf' if key=='base' else m[key]['hashes']['ttf'];assert sha(path)==expected;(fonts.update({expected:TTFont(path)}));resolved[fam]={'path':str(path),'sha256':expected}
  text=' '.join(chr(int(cp[2:],16)) for cp in sorted(mapping));extra='\n日本語 ABC 𠀀 𠀁 𠀂\n𠀀\u00a0𠀁\u00a0𠀂\n𠀀\u3000𠀁\u3000𠀂\n𠀀\t𠀁\n麤 𠮷';counts={'raw':0,'canonical':0};seen=set()
  with tempfile.TemporaryDirectory(prefix='morimo-pango-fixed-') as td:
   p=Path(td)/'all.json';subprocess.run(['pango-view','--no-display','--font=Morimo Code JP95 Terminal Addons Ratio35 12','--language=ja','--width=900','--wrap=word-char','--text='+text+extra,'--serialize-to='+str(p)],check=True,stdout=subprocess.DEVNULL);d=json.loads(p.read_text());assert d['output']['unknown-glyphs']==0

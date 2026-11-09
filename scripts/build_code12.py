@@ -5,7 +5,7 @@ from fontTools.ttLib import TTFont
 
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def build(root,out):
- out.mkdir(parents=True,exist_ok=True);rows=[];assert sha(root/'fonts/code35/manifest.json')=='91ed519d48c4a4ad540785d3bd5e4cc679cb974a8ab2475d394bd2e4d150e392';prior=json.loads((root/'fonts/code35/manifest.json').read_text());inputs=[dict(source='inputs/terminal-addons/MorimoCodeJP95TerminalAddonsGrid-Regular.ttf',sha256='73147c5213b81e6e13d5dc5103653ae0d27d5c885bdec8bc93f744dc1dc2697c',suffix='',jsuffix='',license='inputs/terminal-ratio35/licenses')]
+ out.mkdir(parents=True,exist_ok=True);rows=[];assert sha(root/'fonts/code35/manifest.json')=='e261b29ebec5304d02ab3db5f5e7b0b446f3e7b6345e03271e58081e9a8fbee7';prior=json.loads((root/'fonts/code35/manifest.json').read_text());inputs=[dict(source='inputs/terminal-addons/MorimoCodeJP95TerminalAddonsGrid-Regular.ttf',sha256='e4d56e0e4dacfc9d4fd5c5b79fece57b9d75905ac382c166c380ec3f9b0620db',suffix='',jsuffix='',license='inputs/terminal-ratio35/licenses')]
  for part in ['JP','RareA','RareB']:
   r=next(x for x in prior if x['family']=='Suminoha Maru Code 35 NF Han '+part);inputs.append(dict(source='fonts/code35/'+r['file'],sha256=r['sha256'],suffix=' Han '+part,jsuffix=' 漢字 '+part,license='fonts/code35/licenses/'+r['postscript']))
  for r in inputs:

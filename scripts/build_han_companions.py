@@ -22,7 +22,7 @@ def target(src):
 
 def build(root,src,out):
  for r in json.loads((src/'lock.json').read_text()):assert sha(src/r['path'])==r['sha256']
- base=root/'inputs/terminal-ratio35/MorimoCodeJP95TerminalAddonsRatio35-Regular.ttf';assert sha(base)=='175ee5b2de7a1c6cb2337837ad4929b7aa312a3f957a93d62af371d1d35bdc88';b=TTFont(base);seen=set(b.getBestCmap());t=target(src);fonts=[TTFont(src/n) for n in FILES];cm=[f.getBestCmap() for f in fonts];selection=[];gains=[]
+ base=root/'inputs/terminal-ratio35/MorimoCodeJP95TerminalAddonsRatio35-Regular.ttf';assert sha(base)=='717d077e233ba2cb14b463dd2e41ef29ca509af211d1073ba8054fab1891f4cf';b=TTFont(base);seen=set(b.getBestCmap());t=target(src);fonts=[TTFont(src/n) for n in FILES];cm=[f.getBestCmap() for f in fonts];selection=[];gains=[]
  for i,c in enumerate(cm):
   new=sorted((set(c)&t)-seen);seen.update(new);selection.extend((cp,i,c[cp]) for cp in new);gains.append(len(new))
  assert not (t-seen);jp=[r for r in selection if r[1]==0];rare=[r for r in selection if r[1]!=0];parts=[('JP',jp),('RareA',rare[:40000]),('RareB',rare[40000:])];sets=[f.getGlyphSet() for f in fonts];out.mkdir(parents=True,exist_ok=True);mapping={};reports={}

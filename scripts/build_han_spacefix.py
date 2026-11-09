@@ -5,7 +5,7 @@ from fontTools.ttLib import TTFont
 SPACES=(0x20,0xa0,0x3000)
 def build(root,out):
  sys.path.insert(0,str(root/'scripts'));from build_han_companions import sha
- base=root/'inputs/terminal-ratio35/MorimoCodeJP95TerminalAddonsRatio35-Regular.ttf';assert sha(base)=='175ee5b2de7a1c6cb2337837ad4929b7aa312a3f957a93d62af371d1d35bdc88';b=TTFont(base);bc=b.getBestCmap();cm=json.loads((root/'inputs/han-compat/manifest.json').read_text());old=json.loads((root/'inputs/han-companions/manifest.json').read_text());out.mkdir(parents=True,exist_ok=True);result={}
+ base=root/'inputs/terminal-ratio35/MorimoCodeJP95TerminalAddonsRatio35-Regular.ttf';assert sha(base)=='717d077e233ba2cb14b463dd2e41ef29ca509af211d1073ba8054fab1891f4cf';b=TTFont(base);bc=b.getBestCmap();cm=json.loads((root/'inputs/han-compat/manifest.json').read_text());old=json.loads((root/'inputs/han-companions/manifest.json').read_text());out.mkdir(parents=True,exist_ok=True);result={}
  for part in ('JP','RareA','RareB'):
   row=cm['parts'][part] if part!='RareB' else old['parts'][part];folder='inputs/han-compat' if part!='RareB' else 'inputs/han-companions';p=root/folder/(row['stem']+'.ttf');assert sha(p)==row['hashes']['ttf'];f=TTFont(p,recalcTimestamp=False);order=list(f.getGlyphOrder());changes={}
   for cp in SPACES:

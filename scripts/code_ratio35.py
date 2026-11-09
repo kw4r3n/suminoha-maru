@@ -8,7 +8,7 @@ from PIL import Image,ImageFont,ImageDraw
 STEM='MorimoCodeJP95TerminalAddonsRatio35-Regular';FAMILY='Morimo Code JP95 Terminal Addons Ratio35'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def build(root,out):
- base=root/'inputs/terminal-addons/MorimoCodeJP95TerminalAddonsRatio23-Regular.ttf';assert sha(base)=='699f292496ca86094c2c5cd51acbdcd69a97a4ddc95c5c809fd4c94844043096'
+ base=root/'inputs/terminal-addons/MorimoCodeJP95TerminalAddonsRatio23-Regular.ttf';assert sha(base)=='f87016f90bf7a33ea43547609dd0bebe1c9711dc040531d7ff9ab83e1b5cfc96'
  a=TTFont(base,recalcTimestamp=False);f=TTFont(base,recalcTimestamp=False);gs=a.getGlyphSet();separators={n for cp,n in a.getBestCmap().items() if 0xe0b0<=cp<=0xe0d7};maps=json.loads((root/'inputs/terminal-addons/mapping.json').read_text())['Ratio23']['mapping'];adds={a.getBestCmap()[int(cp[2:],16)]:m for cp,m in maps.items()};changes={}
  for n in a.getGlyphOrder():
   aw,lsb=a['hmtx'][n]

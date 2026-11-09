@@ -11,6 +11,23 @@ EMOJI='🤖✅❌🔧🔍💡📝📦🚀🎉🎯'
 SYMBOLS='⚙⎋✖⏳⌛⏱⏻⏴⏵⏸⏹⏺⌘⌥⌫'
 PROMPT=[0x22c8,0x2309,0x230a,0x2102,0x22ef,0x23a5,0x23aa]
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+SEQ_FAMILIES={'hyphen','equal','less_hyphen','less_equal','greater_hyphen','greater_equal','bar_hyphen','bar_equal'}
+def clamp_seq(f):
+ # Maple's -/= sequence bars overlap both neighbours; kitty shrinks such overflowing cells,
+ # which shifts the bar height. Keep them in the cell with a 50/540 right overlap instead.
+ # Done here, after the ink-bound-dependent size stages, so their scaling is unchanged.
+ out=[]
+ for n in f.getGlyphOrder():
+  p=n.split('.')
+  if p[0] not in SEQ_FAMILIES or 'seq' not in p[1:]:continue
+  g=f['glyf'][n];adv=f['hmtx'][n][0];right=adv+round(adv*50/540);assert not g.isComposite(),n
+  xs=[x for x,y in g.coordinates]
+  for bad in ([x for x in xs if x<0],[x for x in xs if x>right]):
+   # Clamping equals clipping only when the crossing parts are straight bar ends.
+   assert len(set(bad))<=1 and all(g.flags[i]&1 for i,x in enumerate(xs) if x in bad),(n,bad)
+  g.coordinates=type(g.coordinates)([(min(max(x,0),right),y) for x,y in g.coordinates]);g.recalcBounds(f['glyf']);f['hmtx'][n]=(adv,g.xMin);out.append(n)
+ assert len(out)==28,len(out)
+ return out
 def build(root,sources,out):
  sys.path.insert(0,str(root/'scripts'));from hb import Shaper
  assert sha(root/'sources/notosans/NotoSans[wdth,wght].ttf')=='bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d'
@@ -48,14 +65,14 @@ def build(root,sources,out):
    for t in f['cmap'].tables:
     if t.isUnicode() and (t.format==12 or (cp<=0xffff and t.format==4)):t.cmap[cp]=name
    mapping[f'U+{cp:04X}']={'source':key,'source_glyph':n,'glyph':name,'advance':aw,'matrix':[sx,0,0,ys,dx,dy],'separator':issep}
-  f.setGlyphOrder(order)
+  f.setGlyphOrder(order);clamped=clamp_seq(f)
   for r in list(f['name'].names):
    vals={1:family,4:family+' Regular',6:stem,16:family,17:'Regular',3:'0.001;MRMO;'+stem,5:'Version 0.001',10:'Additive monochrome terminal icons and bounded emoji prototype; no install.'}
    if r.nameID==0:vals[0]=a['name'].getDebugName(0)+'; Terminal additions: GitHub Inc.2023; Ryan L McIntyre2014/2016; konpa2015; Noto Project Authors2022; Google LLC2013/2022. See bundled complete notices.'
    if r.nameID in vals:f['name'].setName(vals[r.nameID],r.nameID,r.platformID,r.platEncID,r.langID)
   f['head'].fontRevision=.001;f.recalcTimestamp=False
   f.save(out/(stem+'.ttf'));f.flavor='woff2';f.save(out/(stem+'.woff2'))
-  results[tag]={'family':family,'stem':stem,'base':base,'base_sha256':sha(root/base),'coverage':len(cm)+len(selected),'old_glyphs':len(a.getGlyphOrder()),'mapping':mapping,'hashes':{ext:sha(out/(stem+'.'+ext)) for ext in ('ttf','woff2')},'sizes':{ext:(out/(stem+'.'+ext)).stat().st_size for ext in ('ttf','woff2')}}
+  results[tag]={'family':family,'stem':stem,'base':base,'base_sha256':sha(root/base),'coverage':len(cm)+len(selected),'old_glyphs':len(a.getGlyphOrder()),'clamped_sequence_glyphs':clamped,'mapping':mapping,'hashes':{ext:sha(out/(stem+'.'+ext)) for ext in ('ttf','woff2')},'sizes':{ext:(out/(stem+'.'+ext)).stat().st_size for ext in ('ttf','woff2')}}
  (out/'mapping.json').write_text(json.dumps(results,sort_keys=True,indent=2)+'\n');return results
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1]);p.add_argument('--sources',type=Path);p.add_argument('--output',type=Path);a=p.parse_args();build(a.root,a.sources or a.root/'sources/terminal-addons',a.output or a.root/'inputs/terminal-addons')
