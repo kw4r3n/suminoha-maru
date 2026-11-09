@@ -8,7 +8,7 @@ PINS = {
 'inputs/prose-han/MorimoProseHanJP-Regular.ttf':'3e3b2b34f9a4d6c057a82c9be62b49c8f1be06be43057c5bd508843eeb5435fb',
 'inputs/prose-han/MorimoProseHanRareA-Regular.ttf':'1b739003ab6ff77e51c86176f753724ed1ef1eae398ce1002a6007266aa85b52',
 'inputs/prose-han/MorimoProseHanRareB-Regular.ttf':'525ebe433014f099899e0b9aa807bffcc4116be69eaf20f986eaa345a5992bb4',
-'inputs/terminal-ratio35/MorimoCodeJP95TerminalAddonsRatio35-Regular.ttf':'175ee5b2de7a1c6cb2337837ad4929b7aa312a3f957a93d62af371d1d35bdc88',
+'inputs/terminal-ratio35/MorimoCodeJP95TerminalAddonsRatio35-Regular.ttf':'717d077e233ba2cb14b463dd2e41ef29ca509af211d1073ba8054fab1891f4cf',
 'inputs/han-spacefix/MorimoRatio35HanJP-Regular.ttf':'80a5f20d4167f3d27c700ccd09b746761c4cd857662c6775206dcfc6f65adf85',
 'inputs/han-spacefix/MorimoRatio35HanRareA-Regular.ttf':'58c3a5fd899ccd38be623b3aaa1885348ab0ae5113d2cae68ef0bde55365e1fe',
 'inputs/han-spacefix/MorimoRatio35HanRareB-Regular.ttf':'4281c85fd35e31ed1073c0d39ceb44dd4b6ffab32990b05461cd33b387a73f3c'}

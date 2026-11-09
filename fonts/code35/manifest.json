@@ -6,10 +6,10 @@
     "old_family": "Morimo Code JP95 Terminal Addons Ratio35",
     "postscript": "SuminohaMaruCode35NF-Regular",
     "source": "inputs/terminal-ratio35/MorimoCodeJP95TerminalAddonsRatio35-Regular.ttf",
-    "source_sha256": "175ee5b2de7a1c6cb2337837ad4929b7aa312a3f957a93d62af371d1d35bdc88",
+    "source_sha256": "717d077e233ba2cb14b463dd2e41ef29ca509af211d1073ba8054fab1891f4cf",
     "file": "SuminohaMaruCode35NF-Regular.ttf",
-    "sha256": "2c9d2aa3c4894b2014f61333a0d63bc7a8c1886a68d9641250c0c7d86dc9b0d2",
-    "woff2_sha256": "9e57a98d26e8c1c2407642aea7b6cbee99717538d798f3d4e65d7895356009bc"
+    "sha256": "8a91fc6bd1c19cf7b7215c8e00e79490cddc0efa888ac3dcc8c554c0f9348f74",
+    "woff2_sha256": "c36ab7bb59735335a172cbd60a3a9bc070fd8980b3e2ecdcd526bdc7898bf60c"
   },
   {
     "kind": "code",
